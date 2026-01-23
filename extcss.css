@@ -7731,11 +7731,7 @@ p.rightside {
 #switcheroo { top: 7%;
  left: 88px;
 	transition-duration: 1s;
-    z-index: 1;
 			}
-#switcheroo:hover {
-    z-index: 9999;
-}
 button.toggleSwitcheroo > .fa-solid {
  color: var(--bright);
  font-weight: 900;
@@ -8167,4 +8163,5 @@ width: 100%;
  font-weight: 700
 
 }
+
 
