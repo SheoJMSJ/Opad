@@ -3633,7 +3633,6 @@ box-shadow: var(--shadow);
     cursor: pointer;
     padding: 9px;
     vertical-align: middle;
-    margin: 0px 10px;
     border: var(--border);
     color: var(--bright2);
   margin: 0px !important;
@@ -6017,7 +6016,7 @@ form[name="go_page"] {
 }
 
 form[name="go_page"] input[type="text"], .inputbox {
-      padding: 10px 0px !important;
+      padding: 10px 10px !important;
     font-size: 11px !important;
     box-shadow: var(--shadow) !important;
     border-radius: 10px !important;
@@ -8155,6 +8154,7 @@ width: 100%;
  font-weight: 700
 
 }
+
 
 
 
