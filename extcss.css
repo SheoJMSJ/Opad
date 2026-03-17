@@ -842,6 +842,9 @@ width: fit-content;}
 /*codebox*/
 .codebox dd {    padding-bottom: 10px;}
 .codebox dt {display: none !important;}
+dt.spoiler_title {
+    display: block !important;
+}
 dl.codebox code {
       color: var(--bright2) !important;
     font-size: 12px !important;
