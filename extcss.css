@@ -5313,8 +5313,8 @@ align-content: center !important;
 #fa_toolbar {
     display: flex;
     flex-wrap: wrap;
-    top: 15px;
-        left: calc(100% - 90px);
+    top: 9px;
+    left: calc(100% - 90px);
     position: fixed !important;
     width: 35px !important;
     background-color: transparent;
