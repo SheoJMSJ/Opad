@@ -3161,7 +3161,7 @@ width: calc(100%);
     width: 35px;
     padding: 10px 10px 10px 7px;
     left: 48%;
-    top: 55px;
+    top: 10px;
     display: flex;
     position: fixed;
     transition: 2s;
