@@ -5945,23 +5945,21 @@ display: none
 
 .hopkwadracik {
  display: none;
- flex-wrap: wrap;
- right: 0;
+ right: 10px;
  column-gap: 5%;
  top: -5%;
  position: absolute;
- width: 44%;
  transition: 1s
 
 }
 
-dd.kwadracik {display: none
-
+dd.kwadracik {display: none;
 }
 .tematy {transition: 1s}
-.tematy:hover .hopkwadracik { width: 100px;
+.tematy:hover .hopkwadracik { width: auto;
 font-size: 12px;
- display: flex
+ display: flex;
+flex-wrap: nowrap;
 }
 
 
@@ -5974,14 +5972,13 @@ font-size: 12px;
     border: var(--border);
     box-shadow: var(--shadow3);
     display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     min-width: 35px;
-    height: 35px;
     z-index: 999;
-    padding: 0 !important;}
+    padding: 4px 6px;
+    flex-shrink: 0;}
 
 /*go to page form*/
 
