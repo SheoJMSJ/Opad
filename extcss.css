@@ -4008,6 +4008,7 @@ input[type="text"]:focus-visible,
 	  overflow-x: hidden;
     overflow-y: auto;
     padding-right: 4px;
+	  height: 100%;
   }
 
 #page-body {
@@ -7753,7 +7754,7 @@ button.toggleSwitcheroo:hover {
 .switcheroo[position="top"] {
  z-index: 999;
 position: fixed;
- top: 45px;
+height: calc(100% - 14%);
 }
 
 .switcheroo[direction="vertical"] {
