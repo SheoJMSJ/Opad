@@ -5760,7 +5760,8 @@ li.tematy > dl.icon {
     position: relative;
     flex-wrap: wrap;
     gap: 2px;
-    display: flex
+    display: flex;
+	align-items: center;
 }
 
 .subkat a {
