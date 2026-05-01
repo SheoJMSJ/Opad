@@ -7764,7 +7764,7 @@ border: none !important;
  margin: 0;
  padding: 0;
  list-style: none;
- gap: var(--gap-size);
+ gap: 6px;
 }
 
 .switcheroo__squircle img {opacity: 0.9;}
