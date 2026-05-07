@@ -4000,6 +4000,7 @@ input[type="text"]:focus-visible,
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.4s ease;
+	position: absolute;
   }
 
   .hidecont.visible {
@@ -4009,6 +4010,7 @@ input[type="text"]:focus-visible,
     overflow-y: auto;
     padding-right: 4px;
 	  height: 100%;
+	  position: absolute;
   }
 
 #page-body {
