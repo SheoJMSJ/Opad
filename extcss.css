@@ -4004,13 +4004,14 @@ input[type="text"]:focus-visible,
   }
 
   .hidecont.visible {
-    opacity: 1;
+	opacity: 1;
     pointer-events: auto;
-	  overflow-x: hidden;
+    overflow-x: hidden;
     overflow-y: auto;
-    padding-right: 4px;
-	  height: 100%;
-	  position: absolute;
+    padding-right: 200px;
+    height: 100%;
+    position: absolute;
+    padding-left: 10px;
   }
 
 #page-body {
@@ -7698,7 +7699,7 @@ p.rightside {
 /*SWITCHEROO*/
 
 #switcheroo { top: 7%;
- left: 88px;
+ left: 80px;
 			}
 button.toggleSwitcheroo > .fa-solid {
  color: var(--bright);
