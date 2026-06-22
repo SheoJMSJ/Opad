@@ -7701,6 +7701,11 @@ p.rightside {
 #switcheroo { top: 7%;
  left: 80px;
 			}
+
+.hidecont.visible::-webkit-scrollbar {
+width: 0 !important;
+}
+
 button.toggleSwitcheroo > .fa-solid {
  color: var(--bright);
  font-weight: 900;
